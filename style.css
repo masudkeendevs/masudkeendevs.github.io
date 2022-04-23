@@ -1,0 +1,21 @@
+ :root {
+    --background-color:red;
+    --color:gold;
+    --font-size:40px;
+}
+/*This code is for heading*/
+h1{
+    background-color: var(--background-color);
+    color: var(--color);
+    font-size: var(--font-size);
+} 
+.two{
+    background-color: rgb(170, 255, 0);
+    color: rgb(42, 67, 165);
+    font-size: 50px;
+} 
+.seven{
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 100px;
+}
