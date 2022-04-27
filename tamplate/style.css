@@ -92,3 +92,35 @@ top: 5px;
     padding: 20px 15px;
     display: block;
 }
+/* home top */
+#home-top {
+    background-color: #000  ;
+    background-image: linear-gradient(to right,#000,#666);
+    padding: 10% 0;
+    text-align: center;
+}
+#home-top h1,#home-top p {
+
+    color: #fff;
+
+}
+#home-top h1 {
+    font-size:3em ; /* unit | brouser font-size:16px;*/
+}
+#home-top p {
+    font-size: 18px;
+    padding: 0 15%;
+
+}
+#home-top .cta {
+    text-decoration: none;
+    border: 1px solid;
+    padding:10px  15px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #ccc;
+}
+#home-top .cta:hover{
+    color: #fff;
+}
